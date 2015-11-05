@@ -34,10 +34,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SearchLauncherQuickStep \
     Jelly \
-    OmniStyle \
     VanillaMusic \
     SimpleGallery \
-    WeatherClient
+    ExactCalculator
 
 # SetupWizard
 PRODUCT_PACKAGES += \
