@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 # Copyright (C) 2012-2013, The CyanogenMod Project
 # Copyright (C) 2012-2015, SlimRoms Project
 # Copyright (C) 2017, GZOSP
@@ -15,8 +15,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from __future__ import print_function
-
 import base64
 import json
 import netrc
@@ -25,20 +23,9 @@ import sys
 
 from xml.etree import ElementTree
 
-try:
-    # For python3
-    import urllib.error
-    import urllib.parse
-    import urllib.request
-except ImportError:
-    # For python2
-    import imp
-    import urllib2
-    import urlparse
-    urllib = imp.new_module('urllib')
-    urllib.error = urllib2
-    urllib.parse = urlparse
-    urllib.request = urllib2
+import urllib.error
+import urllib.parse
+import urllib.request
 
 DEBUG = False
 default_manifest = ".repo/manifests/validus_default.xml"
