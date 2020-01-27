@@ -78,7 +78,8 @@ PRODUCT_PACKAGES += \
 -include vendor/validus/config/fonts.mk
 
 PRODUCT_PACKAGES += \
-     OverlayStub
+     OverlayStub \
+     validus-overlays
 
 # Power whitelist
 PRODUCT_COPY_FILES += \
