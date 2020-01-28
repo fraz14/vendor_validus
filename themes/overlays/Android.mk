@@ -20,6 +20,7 @@ LOCAL_REQUIRED_MODULES := \
 	AccentColorBlueGreyOverlay \
 	AccentColorClownsNoseOverlay \
 	AccentColorMintOverlay \
+	AccentColorNexusGreenOverlay \
 	IconShapeCylinderOverlay \
 	PrimaryColorValidusBlackOverlay \
 	PrimaryColorBastilleOverlay \
