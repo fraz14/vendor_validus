@@ -36,7 +36,6 @@ PRODUCT_PACKAGES += \
     Jelly \
     OmniStyle \
     VanillaMusic \
-    CarbonDelta \
     SimpleGallery \
     WeatherClient
 
